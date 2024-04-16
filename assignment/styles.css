@@ -1,9 +1,29 @@
+body {
+    margin: 0;
+}
+
 header {
     background-color: darkslategrey;
     color: whitesmoke;
     text-align: center;
+    padding: 1em;
 }
 
 main {
     background-color: lightgrey;
+    padding: 1em;
+    height: 100vh;
+}
+
+.hero-image {
+    background-image: url(record.png);
+    background-repeat: repeat;
+    padding: 0;
+}
+
+p {
+    background-color: darkslategrey;
+    padding: 1em;
+    text-align: center;
+    color: whitesmoke
 }
